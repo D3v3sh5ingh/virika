@@ -273,7 +273,7 @@
             $.fancybox({
                 href: this.href,
                 type: $(this).data("type"),
-                'title'         : this.title,
+                'title'         : "",
                 helpers     : {
                     title : { type : 'inside' },
                     media : {}
